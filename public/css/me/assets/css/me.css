@@ -1,0 +1,324 @@
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,800);
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+  
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -moz-font-feature-settings: "liga" on;
+  margin: 0; }
+
+img.alignright {
+  float: right; }
+
+img.alignleft {
+  float: left; }
+
+img.aligncenter {
+  clear: both;
+  display: block;
+  margin-right: auto;
+  margin-left: auto; }
+
+
+body {
+  background-color: #FFFFFF;
+  border-style: none; }
+
+body,
+p,
+a,
+a:hover {
+  color: #000000; }
+
+a,
+a:hover {
+  text-decoration: none;
+  border: none;
+  border-style: none;
+  box-shadow: none; }
+
+/* -- Content -- */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+html {
+  background-color: #73bbebcb; }
+
+  body.page-template-page-fullsingle-me {
+    height: 100vh;
+    font-family: 'Bree Serif', serif;  
+    line-height: 60px;
+    letter-spacing: -0.5px;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url("../../images/login.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: slide 20s infinite;  
+   
+     }
+    body.page-template-page-fullsingle-me p {
+      margin-bottom : 0px;
+      color: #ffffff; }
+      page-template-page-fullsingle-m{
+        
+      }
+    
+
+.fs-me {
+  padding: 10vh 10vw;
+  position: center;
+  z-index: 1000; }
+  @media (max-width: 500px) {
+    .fs-me {
+      padding: 5vh 5vw;
+      text-align: center; } }
+  .fs-me .me-content {
+    height: 80vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column; }
+    @media (max-width: 500px) {
+      .fs-me .me-content {
+        height: 90vh; } }
+
+.logo {
+  
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+          flex: 1 1 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-self: center;
+          align-self: center;
+  -webkit-animation: fadein 2s;
+          animation: fadein 2s;
+          
+          }
+ 
+    .logo {
+    
+      -webkit-align-self:center;
+              align-self: center;
+               } 
+  .logo img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    /*max-width: 350px;*/
+   
+   }
+  
+
+.bio,.cc {
+  font-size: 45px;
+
+  -webkit-animation: fadein 2s;
+          animation: fadein 2s;
+  letter-spacing: -1px;
+  max-width: 100%; }
+.cc{
+ font-size: 35px; 
+}
+  
+  
+
+.network {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+          flex: 1 1 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-animation: fadein 6s;
+          animation: fadein 6s;
+  margin-top: auto; }
+  .network ul {
+    -webkit-animation: fadein 6s;
+            animation: fadein 6s;
+    margin-top: auto; }
+    .network ul li {
+      display: inline-block;
+      margin-right: 8px; }
+      .network ul li a {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        cursor: pointer; }
+        .network ul li a .svg-icon {
+          padding: 4px;
+          width: 22px;
+          height: 22px;
+          margin: 0;
+          display: block; }
+        .network ul li a .svg-icon path,
+        .network ul li a .svg-icon polygon,
+        .network ul li a .svg-icon rect {
+          fill: #ffffff;
+          -webkit-transition: 1s;
+          transition: 1s; }
+        .network ul li a .svg-icon circle {
+          stroke: #ffffff;
+          stroke-width: 1; }
+      .network ul li a:hover .svg-icon path,
+      .network ul li a:hover .svg-icon polygon,
+      .network ul li a:hover .svg-icon rect {
+        fill: rgb(29, 247, 255);
+        -webkit-transition: 0.1s;
+        transition: 0.1s; }
+
+.credit {
+  font-size: 12px;
+  line-height: 14px;
+  margin-bottom: 0;
+  -webkit-animation: fadein 8s;
+          animation: fadein 8s; }
+  .credit p.copyright {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    opacity: 0.8; }
+    .credit p.copyright a {
+      color: #ffffff; }
+
+
+
+      .button {
+        border-radius: 10px;
+        background-color: #fffffff6;
+        border: 1px;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 240px;
+        transition: all 0s;
+        cursor: pointer;
+        -webkit-animation: fadein 4s;
+        animation: fadein 4s;
+        
+        margin: 5px;
+        margin-top: 30px;
+      }
+      .button a {
+        color: #00357d;
+        opacity: 1;
+        
+
+      }
+      
+      .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      
+      .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      
+      .button:hover span {
+        padding-right: 25px;
+      }
+      
+      .button:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+
+  
+
+
+
+ 
+  
+     @keyframes slide {
+       0%{
+        background-image: url("../../images/login.png");
+       }
+       25%{
+        background-image: url("../../images/login1.png");
+       }
+       50%{
+        background-image: url("../../images/login2.png");
+       }
+       75%{
+        background-image: url("../../images/login3.png");
+       }
+      
+     }
